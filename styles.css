@@ -34,15 +34,16 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 30px;
   }
   
   .logo {
     width: 100px;
-    margin: 50px 30px;
+    margin-top: 100px;
   }
   
   nav {
-    width: 80%;
+    width: 100%;
     text-align: right;
   }
   
@@ -50,6 +51,7 @@ body {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
+    margin-top: 20px;
   }
   
   .nav-link {
@@ -73,7 +75,9 @@ body {
   .column-1 {
     margin-left: 50px;
     position: relative;
+     
   }
+ 
   
   h2 {
     font-size: 54px;
@@ -100,8 +104,12 @@ body {
       position: absolute;
       left: -40px;
       top: 8px;
+      text-decoration: none;
   }
-  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
   
   h4 {
     font-size: 20px;
@@ -119,7 +127,9 @@ body {
     cursor: pointer;
     z-index: 2;
     background: linear-gradient(to right, #fb5283, #ff3527);
+    
     transition: all 0.5s ease-in-out;    
+
   }
 
   .buy img{
